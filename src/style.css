@@ -12,6 +12,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "poppins", sans-serif;
   background-color: var(--bg);
@@ -87,7 +91,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/header-bg.jpeg.jpg");
+  background-image: url("../public/header-bg.jpeg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
